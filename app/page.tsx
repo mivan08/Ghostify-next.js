@@ -956,7 +956,7 @@ export default function Home() {
                 <Box as="span" display={"inline-block"} color={"#8571BC"}>
                   make magic.
                 </Box>
-                <Flex mt={"20px"} alignItems={"center"} flexDirection={{base: "column", lg: "row"} } gap={"12px"} width={"100%"} mx={"auto"}>
+                <Flex mt={"20px"} alignItems={"center"} flexDirection={{base: "column", lg: "row"} } gap={"12px"} width={{base: "100%", lg: "690px"}} mx={"auto"}>
                   <Input 
                     placeholder="Email address" 
                     backgroundColor={"rgba(50, 50, 50, 0.40)"} 
